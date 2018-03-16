@@ -12,7 +12,6 @@ public class ObserverTest {
         ConsoleView view = new ConsoleView(counter);
         counter.addObserver(view);
 
-        ConsoleView consoleView = new ConsoleView(counter);
         while (true){
             System.out.print("How much? ");
             int howmuch = new Scanner(System.in).nextInt();
